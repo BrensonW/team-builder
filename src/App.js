@@ -19,7 +19,8 @@ function App() {
       name: formData.name,
       position: formData.position,
       email: formData.email,
-    }
+    };
+    setTeams([...teams, newTeamMember]);
   }
   return (
     <div className="App">

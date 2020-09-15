@@ -23,7 +23,7 @@ const TeamForm = props => {
 
     return (
         <form>
-            <label gtmlForm='name'>Name</label>
+            <label htmlForm='name'>Name</label>
             <input 
             placeholder='Enter Name'
             type='text'
@@ -31,6 +31,17 @@ const TeamForm = props => {
             value={teams.name} onChange={changeHandler} />
 
             <br/>
+
+            <label htmlForm='position'>Position</label>
+            <input 
+            placeholder='Enter Position'
+            type='text'
+            name='position'
+            value={teams.position} onChange={changeHandler} />
+
+            <br/>
+
+            
 
             <label htmlForm='email'>Email</label>
             < input
