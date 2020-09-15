@@ -51,7 +51,7 @@ input, textarea {
   border-radius: 10%;
 }
 button {
-  background: rgb(194, 11, 133);
+  background: royalblue;
   background-image: linear-gradient(-315deg, royalblue 40%,#ff657f 70%);
   border: 1px solid #5e0808;
   padding: 1% 5%;
